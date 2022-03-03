@@ -25,16 +25,23 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
     <!-- My CSS stylesheet link -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
+
   <body class="container">
     <header>
-      <h1 class="d-flex justify-content-center display-1">Marissa Fandel</h1>
+      <h1 class="display-1 d-flex justify-content-center">Marissa Fandel</h1>
     </header>
 
-    <main class="row justify-content-around">
-      <nav class="col-md-1 ms-2 mt-4">
+    <div class="row justify-content-around">
+      <nav class="col-md-1 ms-2 mt-5">
         <ul class="nav d-flex flex-md-column justify-content-between">
           <li class="m-2 py-2">
             <a class="display-6" href="#about-me">About</a>
@@ -47,10 +54,10 @@
           </li>
         </ul>
       </nav>
-
-      <section id="about-me" class="col-md-10">
-        <div
-          class="d-flex flex-column flex-md-row align-items-center my-4 mx-5"
+      <main class="col-md-10">
+        <section
+          id="about-me"
+          class="d-flex flex-column flex-md-row align-items-center my-5 mx-5"
         >
           <img
             class="berley p-3"
@@ -71,11 +78,98 @@
               projects I have implemented as a part of my coursework.
             </h5>
           </div>
-        </div>
-      </section>
-      <section id="my-apps"></section>
-      <section id="contact-me"></section>
-    </main>
+        </section>
+        <section id="my-apps" class="m-5">
+          <h2 class="px-2 py-5 display-3">My Applications</h2>
+          <div>
+            <picture
+              ><source
+                media="(min-width: 768px)"
+                srcset="./assets/images/marvel-landing-page.png" />
+              <img
+                class="w-100"
+                src="./assets/images/marvel-movies.png"
+                alt="Marvel for Beginners"
+            /></picture>
+            <h2 class="comics my-4 display-5">Marvel For Beginners</h2>
+            <h4>
+              Made in collaboration with 3 other teammates, Marvel for Beginners
+              serves as an introductory guide for the user into the vast and
+              imaginitive Marvel Universe.
+            </h4>
+            <div class="py-4 h5 d-flex justify-content-between">
+              <a
+                href="https://bhodge166.github.io/MarvelForBeginners/"
+                target="_blank"
+                >Explore Marvel for Beginners</a
+              >
+              <a
+                href="https://github.com/bhodge166/MarvelForBeginners"
+                target="_blank"
+                >Visit the GitHub repo</a
+              >
+            </div>
+          </div>
+          <div>
+            <picture
+              ><source
+                media="(min-width: 768px)"
+                srcset="./assets/images/weather-wide.png" />
+              <img
+                class="w-100"
+                src="./assets/images/weather-dash.png"
+                alt="Code Quiz"
+            /></picture>
+            <h2 class="my-4 display-5">Weather Dashboard</h2>
+            <h4>
+                This application allows the user to check the weather in any city in the world. THe dashboard also provides a 5-day forecast for the given city.
+            </h4>
+            <div class="py-4 h5 d-flex justify-content-between">
+              <a
+                href="https://mfandel118.github.io/Weather-Dashboard-Homework6/""
+                target="_blank"
+                >Check the Weather / Forecast</a
+              >
+              <a
+                href="https://github.com/mfandel118/Weather-Dashboard-Homework6"
+                target="_blank"
+                >Visit the GitHub repo</a
+              >
+            </div>
+          </div>
+          <div>
+            <picture
+              ><source
+                media="(min-width: 768px)"
+                srcset="./assets/images/code-quiz-larger.png" />
+              <img
+                class="w-100"
+                src="./assets/images/Sample-Question.png"
+                alt="Code Quiz"
+            /></picture>
+            <h2 class="my-4 display-5">Code Quiz</h2>
+            <h4>
+              Challenge your knowledge of web development with this fun,
+              user-friendly game that tracks your score and challenges you to
+              beat your previous high score!
+            </h4>
+            <div class="py-4 h5 d-flex justify-content-between">
+              <a
+                href="https://mfandel118.github.io/Code-Quiz-Homework4/"
+                target="_blank"
+                >Take the Code Quiz</a
+              >
+              <a
+                href="https://github.com/mfandel118/Code-Quiz-Homework4"
+                target="_blank"
+                >Visit the GitHub repo</a
+              >
+            </div>
+          </div>
+        </section>
+        <section id="contact-me"></section>
+      </main>
+    </div>
     <!-- Bootstrap script -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"
