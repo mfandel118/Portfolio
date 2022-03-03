@@ -28,9 +28,53 @@
     <!-- My CSS stylesheet link -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body>
-    <main>
-      <h1 class="d-flex justify-content-center display-2">Marissa Fandel</h1>
+  <body class="container">
+    <header>
+      <h1 class="d-flex justify-content-center display-1">Marissa Fandel</h1>
+    </header>
+
+    <main class="row justify-content-around">
+      <nav class="col-md-1 ms-2 mt-4">
+        <ul class="nav d-flex flex-md-column justify-content-between">
+          <li class="m-2 py-2">
+            <a class="display-6" href="#about-me">About</a>
+          </li>
+          <li class="m-2 py-2">
+            <a class="display-6" href="#my-apps">Projects</a>
+          </li>
+          <li class="m-2 py-2">
+            <a class="display-6" href="#contact-me">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section id="about-me" class="col-md-10">
+        <div
+          class="d-flex flex-column flex-md-row align-items-center my-4 mx-5"
+        >
+          <img
+            class="berley p-3"
+            src="./assets/images/PXL_20201017_172759432.PORTRAIT-01.COVER_2.jpg"
+            alt="photo of Marissa Fandel"
+          />
+          <div class="p-2">
+            <h2
+              class="px-2 display-5 d-flex justify-content-center justify-content-md-start"
+            >
+              Future Dev
+            </h2>
+            <h5 class="p-2">
+              I am a student of web development, currently enrolled in Coding
+              Boot Camp through the University of Denver. I am brand new to the
+              world of web development, and I am greatly enjoying my time spent
+              in the Boot Camp so far. Below, you can view a few of the recent
+              projects I have implemented as a part of my coursework.
+            </h5>
+          </div>
+        </div>
+      </section>
+      <section id="my-apps"></section>
+      <section id="contact-me"></section>
     </main>
     <!-- Bootstrap script -->
     <script
