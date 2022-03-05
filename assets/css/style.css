@@ -49,8 +49,8 @@ a {
   }
 }
 
-/* @media screen and (max-width: 768px) {
-  #my-apps {
-    margin: 0;
+@media screen and (max-width: 991px) {
+  .contact {
+    display: none;
   }
-} */
+}
