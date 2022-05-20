@@ -1,31 +1,31 @@
 * {
-  /* color: #e0c0fa; */
-  color: #b9eeae;
-  font-family: "Bebas Neue", cursive;
+	/* color: #e0c0fa; */
+	color: #b9eeae;
+	font-family: "Bebas Neue", cursive;
 }
 
 body {
-  background-image: linear-gradient(145deg, #09154d, #000000);
-  min-width: 100%;
-  min-height: 100vh;
+	background-image: linear-gradient(145deg, #09154d, #000000);
+	min-width: 100%;
+	min-height: 100vh;
 }
 
 h1 {
-  font-family: "Permanent Marker", cursive;
+	font-family: "Permanent Marker", cursive;
 }
 
 a {
-  text-decoration: none;
-  color: #b9eeae;
+	text-decoration: none;
+	color: #b9eeae;
 }
 
 .comics {
-  font-family: "Bangers", cursive;
+	font-family: "Bangers", cursive;
 }
 
 .berley {
-  width: 80vw;
-  height: auto;
+	width: 80vw;
+	height: auto;
 }
 
 /* .contact:hover {
@@ -33,28 +33,28 @@ a {
 } */
 
 @media screen and (min-width: 540px) {
-  .berley {
-    width: 55vw;
-    height: auto;
-  }
+	.berley {
+		width: 55vw;
+		height: auto;
+	}
 }
 
 @media screen and (min-width: 768px) {
-  .berley {
-    width: 40vw;
-    height: auto;
-  }
+	.berley {
+		width: 40vw;
+		height: auto;
+	}
 }
 
 @media screen and (min-width: 900px) {
-  .berley {
-    width: 25vw;
-    height: auto;
-  }
+	.berley {
+		width: 25vw;
+		height: auto;
+	}
 }
 
 @media screen and (max-width: 991px) {
-  .contact {
-    display: none;
-  }
+	.contact {
+		display: none;
+	}
 }
